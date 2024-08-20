@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html>
+  <head>
+<title>Sonic App</title>
+    <script>
+      function doSubmit()
+        {
+          alert("Your Sonic order has been submited. It will arrive in about 15 minutes.");
+          return;
+        }
+    </script>
+  </head>
+  
+<body>
+  <form name="SonicOrderApp">
+  <h1>Sonic App</h1>
+<p>
+  <h4>Step 1: Enter your name and address:</h4>
+  <font face="Courier New">
+    Name: &nbsp;&nbsp;&nbsp;<input name="customer" size="50" type="text><br>
+    Address: <input name="address" size="50" type="text"><br>
+  </font>
+</p>
+<p>
+  <h4>Step 2: Select your sandwich:</h4>
+  <font face="Courier New">
+    <input name="sandwich" type="radio">Hamburger
+    <input name="sandwich" type="radio">cheeseburger
+    <input name="sandwich" type="radio">chicken sandwich<br>
+  </font>
+</p>
+  <p>
+    <h4>Step 3: Select your topings:</h4>
+    <font face="Courier New">
+      <input name="toppings" type="checkbox">Ketchup
+      <input name="toppings" type="checkbox">Mustard
+      <input name="toppings" type="checkbox">Mayonnise
+      <input name="toppings" type="checkbox">Tomatoes
+      <input name="toppings" type="checkbox">Pickles
+      <input name="toppings" type="checkbox">Lettus
+      <input name="toppings" type="checkbox">Bacon
+      <input name="toppings" type="checkbox">Onion
+    </font>
+  </p>
+  <p>
+    <h4>Step 4: Select a side</h4>
+    <font face="Courier New">
+      <input name="sides" type="checkbox">Fries
+      <input name="side" type="checkbox">Tots
+      <input name="side" type="checkbox">Mozzarella sticks
+    </font>
+  </p>
+    <p>
+      <h4>Step 5: Select a sause for your side:</h4>
+        <font face="Courier New">
+          <input name:"sause" type="radio">ketchup
+          <input name="sause" type="radio">BQ sause
+          <input name="sause" type="radio">Groovy sause
+          <input name="sause" type="radio">Ranch sause
+    </p>
+    <input type="button" value="Submit Order" onClick="doSubmit()">
+    <imput type="button" value="Clear Entries">
+    </form>
+</body>
+  
+</html>

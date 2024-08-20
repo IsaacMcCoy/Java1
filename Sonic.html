@@ -6,7 +6,7 @@
     <script>
       function doSubmit()
         {
-          alert("Your Sonic order has been submited. Your order will arrive in about minutes.<br> Thank you for useing the Sonic App to order.");
+          alert("Your Sonic order has been submited. It will arrive in about minutes.");
           return;
         }
     </script>
@@ -31,7 +31,7 @@
   </font>
 </p>
   <p>
-    <h4>Step 3: Select your topings</h4>
+    <h4>Step 3: Select your topings:</h4>
     <font face="Courier New">
       <input name="toppings" type="checkbox">Ketchup
       <input name="toppings" type="checkbox">Mustard
@@ -47,10 +47,18 @@
     <h4>Step 4: Select a side</h4>
     <font face="Courier New">
       <input name="sides" type="checkbox">Fries
-      <input name="toppings" type="checkbox">Tots
-      <input name="toppings" type="checkbox">Mozzarella sticks
+      <input name="side" type="checkbox">Tots
+      <input name="side" type="checkbox">Mozzarella sticks
     </font>
   </p>
+    <p>
+      <h4>Step 5: Select a sause for your side:</h4>
+        <font face="Courier New">
+          <input name:"sause" type="radio">ketchup
+          <input name="sause" type="radio">BQ sause
+          <input name="sause" type="radio">Groovy sause
+          <input name="sause" type="radio">Ranch sause
+    </p>
     <input type="button" value="Submit Order" onClick="doSubmit()">
     <imput type="button" value="Clear Entries">
     </form>

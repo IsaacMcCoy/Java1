@@ -1,11 +1,83 @@
 <!doctype html>
-<html lang="en-US">
+
+<html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>My test page</title>
+<title>Sonic App</title>
+    <script>
+      function doSubmit()
+        {
+          alert("$10.78  Your Sonic order has been submited. It will arrive in about 15 minutes.");
+        return;
+        }
+    </script>
   </head>
-  <body>
-    <img src="images/firefox-icon.png" alt="My test image" />
-  </body>
+  
+<body>
+  <form name="SonicOrderApp">
+ <script>
+ alert("Welcome to Sonic!")
+ alert("Type in your order and hit 'submit order' at the bottom of the page")
+</script>
+<h1>Sonic App</h1>
+<p>
+  <h4>Step 1: Enter your name:</h4>
+  <font face="Courier New">
+    Name: &nbsp;&nbsp;&nbsp;<input name="customer" size="50" type="text><br>
+    Address: &nbsp;&nbsp;&nbsp;<input name="address" size="50" type="text"><br>
+  </font>
+</p>
+<p>
+  <h4>Step 2: Select your sandwich:</h4>
+  <font face="Courier New">
+    <input name="sandwich" type="radio">Hamburger
+    <input name="sandwich" type="radio">Cheeseburger
+    <input name="sandwich" type="radio">Chicken sandwich<br>
+    <input name="sandwich" type="radio">Kid's meal(includes a burger, fries, and a coke)
+  </font>
+</p>
+  <p>
+    <h4>Step 3: Select your topings:</h4>
+    <font face="Courier New">
+      <input name="toppings" type="checkbox">Ketchup
+      <input name="toppings" type="checkbox">Mustard
+      <input name="toppings" type="checkbox">Mayonnise
+      <input name="toppings" type="checkbox">Tomatoes
+      <input name="toppings" type="checkbox">Pickles
+      <input name="toppings" type="checkbox">Lettus
+      <input name="toppings" type="checkbox">Bacon
+      <input name="toppings" type="checkbox">Onion
+    </font>
+  </p>
+  <p>
+    <h4>Step 4: Select a side:</h4>
+    <font face="Courier New">
+      <input name="sides" type="radio">Fries
+      <input name="side" type="radio">Tots
+      <input name="side" type="radio">Mozzarella sticks
+    </font>
+  </p>
+    <p>
+      <h4>Step 5: Select a sause for your side:</h4>
+        <font face="Courier New">
+          <input name="sause" type="radio">Ketchup
+          <input name="sause" type="radio">BQ sause
+          <input name="sause" type="radio">Groovy sause
+          <input name="sause" type="radio">Ranch sause
+    </p>
+    <p>
+ 	<h4>Step 6: Select a drink:</h4>
+        <font face="Courier New">
+         <input name="drink" type="radio">Root Beer
+         <input name="drink" type="radio">Coke
+         <input name="drink" type="radio">Dr. pepper
+         <input name="drink" type="radio">Sprite
+         <input name="drink" type="radio">Tea
+         <input name="drink" type="radio">Pepsi
+         <input name="drink" type="radio">Water
+    </p>
+    <input type="button" value="Submit Order" onClick="doSubmit()">
+    <imput type="button" value="Clear Entries">
+    </form>
+</body>
+  
 </html>
